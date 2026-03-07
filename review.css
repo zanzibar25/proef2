@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 35%;
+    width: 25%;
+    height: auto;
+    padding: 20px;  
+    display: flex;
+    flex-direction: column;
+    color: #ff9999;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border: 1px solid black;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+#naam, #land, #review{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    padding: 5px;
+    color: black;
+    margin-top: 10px;
+    margin: auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2{
+    color: #ff9999;
+    margin-top: 20px;
+    margin-bottom: 35px;;
+}
+
+h1{
+    color: #ff9999
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: grey;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+}
+
+
+button:hover{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: grey;
+    background-color: lightgreen;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+}
