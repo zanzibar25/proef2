@@ -1,4 +1,4 @@
- * {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ body {
 
 #username,
 #password {
-    width: 100%;
+    width: 100%;  
     padding: 12px;
     margin-bottom: 15px;
     font-size: 1rem;  
@@ -39,7 +39,7 @@ body {
 #button {
     width: 100%;
     padding: 12px;
-    font-size: 1rem; 
+    font-size: 1rem;
     background-color: #555;
     color: white;
     border: none;
@@ -52,20 +52,12 @@ body {
     background-color: #777;
 }
 
-#norton-idsafe-field-styling-divId{
-    height: 2px;
-}
-
  
 @media (max-width: 500px) {
-    body {
-        padding: 10px;
-    }
-
     #loginForm {
         padding: 20px;
     }
-
+    
     #username, #password, #button {
         font-size: 1rem;  
     }
