@@ -1,52 +1,63 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#loginForm {
-    margin-top: 10%;
-    margin-left: 35%;
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#loginForm {
     width: 400px;
-    padding: 20px;
-    border: 1px solid darkgrey;
-    border-radius: 5px;
-    background-color: lightgrey;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#username {
-    width: 350px;
-    display: block;
-    margin-bottom: 10px;
-    color: black;
-    font-size: 1.3em;
-    padding: 6px;
+#username, #password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
     border-radius: 5px;
-}
-
-#password {
-    width: 350px;
-    display: block;
-    margin-bottom: 10px;
-    color: black;
-    font-size: 1.3em;
-    padding: 6px;
-    border-radius: 5px;
+    border: 1px solid #999;
 }
 
 #button {
-    width: 350px;
-    font-size: 1.3em;
-    display: block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: grey;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #555;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background-color: #777;
 }
 
 #norton-idsafe-field-styling-divId{
     height: 2px;
+}
+
+@media (max-width: 500px) {
+    #loginForm {
+        width: 90%;
+    }
+    #username, #password, #button {
+        width: 100%;
+    }
 }

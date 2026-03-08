@@ -1,1 +1,16 @@
- 
+[
+    {
+        "naam": "k",
+        "land": "Nederland",
+        "review": "We have en very nice massage in 2025 together with my husband. Happiness know what she is doing.",
+        "sterren": "5",
+        "datum": "2026-03-07 21:35:44"
+    },
+    {
+        "naam": "kolenbrander",
+        "land": "nederland",
+        "review": "dit is een random tekst",
+        "sterren": "4",
+        "datum": "2026-03-08 10:47:45"
+    }
+]
