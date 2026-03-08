@@ -65,6 +65,14 @@ button:hover{
 
     .container{
         width: 90%;
+        font-size: 1.2em;
+    }
+
+    #naam, #land, #review{
+        font-size: 1.2em;
+    }
+    button{
+        font-size: 1.2em;
     }
 
 }

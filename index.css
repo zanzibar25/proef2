@@ -58,6 +58,10 @@ body{
         width: 90%;
     }
     #username, #password, #button {
+        font-size: 1.2em;
         width: 100%;
+    }
+    #button {
+        font-size: 1.2em;
     }
 }
